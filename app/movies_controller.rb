@@ -29,7 +29,7 @@ def can_be_created_in_a_block(args = nil)
 end
 
 def can_get_the_first_item_in_the_database
-  movie = Movie.first
+  Movie.first.name
 end
 
 def can_get_the_last_item_in_the_database
